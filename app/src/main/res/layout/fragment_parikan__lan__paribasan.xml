@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#d66c42"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Parikan (Pantun)"
+            android:textSize="22dp"
+            android:textColor="#000000"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Wedang bubuk, gulo jowo"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yen kepthuk ati lega
+"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sepet-sepet sawone mentah"
+                android:textColor="#000000"
+                android:textSize="20sp"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="di empet- empet, selak ra betah"
+                android:textColor="#000000"
+                android:textSize="20sp"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#f6d089"
+                android:text="Wajik klethik, gula abang"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#f6d089"
+                android:text="aja suthik,yen tumandang"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Godhong kecipir, merambat kawat"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="najan gak mapir, nanging liwat"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kembang jagung, dipethik cina"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Barang wes kadhong di kapakno"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Manuk emprit, menclok godong tebu"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dadi murid, sing sregep sinau"
+                android:textSize="20sp"
+                android:textColor="#000000"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Manuk Kuthut, manggunge ngganter"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yen ra nurut, bisa keblinger"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="yen kembang-kembange kacang, dudu kembange puspa nyidra"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yen kepthok ati lega"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="yen kembang-kembang lamtara, dudu kembang wora-wari"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="mumpung sirah isi mudha, sing taberi ngati-ati"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Isuk nyuling sore nyuling, sulingane arek surabaya"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="esuk eling,sore eling,seng di eling ora rumangsa"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:textColor="#000000"
+            android:background="#f6d089"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Awan-awan aja kluyuran, ana pak mantri numpak sekuter"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kapan-kapan aku keturutan duwe kanca sinaune pinter"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:background="#f6d089"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="isuk nebang sore nembang, tembangane asmara dana"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="suk ngadhang sore ngadhang, sing seng di adhang ra teka-teka"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>>
+</ScrollView>

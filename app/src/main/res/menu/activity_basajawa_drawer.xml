@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Aksara" >
+            <menu>
+                <item
+                    android:id="@+id/aksara_jawa"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Aksara Jawa"/>
+                <item
+                    android:id="@+id/sandangan"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Sandangan"/>
+
+                <item
+                    android:id="@+id/aksara_angka"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Aksara Angka"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/Cangkriman"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Cangkriman" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Parikan Lan paribasan" >
+            <menu>
+                <item
+                    android:id="@+id/parikan"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Parikan"/>
+                <item
+                    android:id="@+id/paribasan"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="Paribasan"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Aran-Arane" >
+
+            <menu>
+                <item
+                    android:id="@+id/arane_kembang"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Arane Kembang" />
+
+                <item
+                    android:id="@+id/arake_kewan"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Anake Kewan" />
+                <item
+                    android:id="@+id/arane_wohwohan"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Arane WohWohan" />
+                <item
+                    android:id="@+id/arane_wet"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Arane Wet" />
+                <item
+                    android:id="@+id/arane_godhong"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Arane Ghodong" />
+                <item
+                    android:id="@+id/goleki"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Goleki Arane" />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>
